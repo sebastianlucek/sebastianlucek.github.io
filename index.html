@@ -1,68 +1,117 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Sebastian Lucek</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/kube.css">
+    <script src="https://kit.fontawesome.com/9745af1226.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
 
   <body>
-    <h1>Sebastian Lucek</h1>
+    <div class="wrapper">
+      <header>
+        <h1>Sebastian Lucek</h1>
 
-    <nav>
-      <a class="active" href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="teaching.html">Teaching</a>
-      <a href="cv.pdf">CV</a>
-    </nav>
+        <nav>
+          <p>
+            <a href="index.html"><b>Home</b></a> |
+            <a href="#research"><b>Research</b></a> |
+            <a href="#teaching"><b>Teaching</b></a> |
+            <a href="cv/lucek_cv.pdf"><b>CV</b></a>
+          </p>
+        </nav>
 
-    <div class="photo-placeholder">
-      Headshot
-    </div>
+        <img src="img/headshot.jpg" alt="Sebastian Lucek">
 
-    <div class="profile-lines">
-      <p>Student</p>
-      <p>Stanford University</p>
-      <p><a href="mailto:slucek@stanford.edu">slucek@stanford.edu</a></p>
-    </div>
+        <p></p>
 
-    <div class="profile-links">
-      <a href="cv.pdf">Curriculum Vitae</a>
-      <a href="#">Google Scholar</a>
-      <a href="#">GitHub</a>
-    </div>
-
-    <main>
-      <p>
-        I am a student at Stanford University.
-      </p>
-
-      <p>
-        My academic interests include [research area], [research area], and [research area].
-        This website will include information about my research, teaching, CV, and contact information.
-      </p>
-
-      <p>
-        I will use this page to share research projects, working papers, teaching materials, and other academic information.
-      </p>
-
-      <h2>Research</h2>
-
-      <div class="research-item">
-        <p>
-          <strong>Working paper title.</strong>
-          Short description of the project.
+        <p class="view">
+          [Your current title] <br>
+          [Your department or program] <br>
+          Stanford University <br>
+          <a href="mailto:slucek@stanford.edu">slucek@stanford.edu</a>
         </p>
-      </div>
 
-      <h2>Working papers</h2>
+        <p></p>
 
-      <div class="research-item">
         <p>
-          Paper title forthcoming.
+          <a href="cv/lucek_cv.pdf"><b>Curriculum Vitae</b></a>
         </p>
-      </div>
-    </main>
+
+        <p></p>
+
+        <p>
+          <a href="[Google Scholar URL]"><b>Google Scholar</b></a>
+        </p>
+
+        <div class="is-container-row is-center">
+          <div class="is-inset-8">
+            <a href="https://github.com/sebastianlucek" class="is-icon">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <p>
+          I am [your current title] at Stanford University. My research interests include
+          [research area], [research area], and [research area].
+        </p>
+
+        <p>
+          My current work focuses on [brief description of your main research agenda].
+          I am particularly interested in [substantive topic, method, or empirical setting].
+        </p>
+
+        <p>
+          Before Stanford, I [brief prior background, degree, job, institution, or fellowship].
+          This website includes information about my research, teaching, CV, and contact information.
+        </p>
+
+        <h3 id="research">Publications</h3>
+
+        <p>
+          <b>[Publication title]</b>
+          <br>
+          [Coauthor names, if any]
+          <br>
+          [Journal, year, status, or other publication information]
+          <br>
+          <a href="[paper URL or docs/file-name.pdf]">Access.</a>
+        </p>
+
+        <h3>Working papers</h3>
+
+        <p>
+          <b>[Working paper title]</b>
+          <br>
+          [Coauthor names, if any]
+          <br>
+          [Status, short description, or link]
+        </p>
+
+        <p>
+          <b>[Working paper title]</b>
+          <br>
+          [Coauthor names, if any]
+          <br>
+          [Status, short description, or link]
+        </p>
+
+        <h3 id="teaching">Teaching</h3>
+
+        <p>
+          <b>[Course title]</b>
+          <br>
+          Stanford University, [term/year]
+          <br>
+          [Instructor / Teaching Assistant / Course Assistant]
+        </p>
+      </section>
+    </div>
   </body>
 </html>
