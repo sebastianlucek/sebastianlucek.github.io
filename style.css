@@ -95,9 +95,41 @@ h2 {
   margin-bottom: 18px;
 }
 
-.no-bullets {
-  list-style: none;
-  padding-left: 0;
+.research-item {
+  margin-bottom: 18px;
+}
+
+ul.no-bullets {
+  list-style-type: none !important;
+  padding-left: 0 !important;
+  margin-left: 0;
+}
+
+ul.no-bullets li {
+  list-style-type: none !important;
+}
+
+ul.no-bullets li::marker {
+  content: "";
+}
+
+ul.no-bullets li::before {
+  content: none !important;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 28px 18px 55px 18px;
+  }
+
+  .photo-placeholder {
+    width: 240px;
+    height: 240px;
+  }
+
+  nav a {
+    margin: 0 7px;
+  }
 }
 
 @media (max-width: 600px) {
