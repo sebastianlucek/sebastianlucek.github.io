@@ -117,6 +117,10 @@ ul.no-bullets li::before {
   content: none !important;
 }
 
+.teaching-list div {
+  margin-bottom: 8px;
+}
+
 @media (max-width: 600px) {
   body {
     padding: 28px 18px 55px 18px;
